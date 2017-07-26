@@ -20,7 +20,7 @@ def upload_file_to_dropbox():
 	r = requests.post(config.get("Dropbox", "dropbox_api_upload_endpont"), headers=headers, data=data)
 	pyutil.logging.debug("File uploaded!")
 
-def waitforawhile():
+def wait_for_a_while():
 	import_time_in_seconds = int(config.get("Dropbox", "import_time_in_seconds"))
 	pyutil.logging.debug("Waiting for {0} seconds...".format(import_time_in_seconds))
 	time.sleep(import_time_in_seconds)
@@ -38,7 +38,7 @@ def delete_file_from_dropbox():
 def main():
 	try:
 		upload_file_to_dropbox()
-		waitforawhile()
+		wait_for_a_while()
 		delete_file_from_dropbox()
 	except Exception as e:
 		pyutil.logging.error(e)
