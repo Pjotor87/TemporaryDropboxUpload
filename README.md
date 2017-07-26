@@ -11,7 +11,7 @@ Deletes that same file from dropbox.
 ## Here's how to use it
 Execute the python script "uploadfiletodropbox.py".
 
-Import the database from dropbox before the file gets deleted.
+On your IPhone -> Import the database from dropbox before the file gets deleted.
 
 ## And here's how to configure it the first time
 1. Log in to dropbox
