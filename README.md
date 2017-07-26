@@ -20,7 +20,7 @@ Import the database from dropbox before the file gets deleted.
 
 3. Copy the access token to the clipboard
 
-4. Open pyconfig.txt and paste in the access token - replacing the text "{{ENTER_YOUR_DROPBOX_ACCESS_TOKEN_HERE}}"
+4. Open pyconfig.txt and paste in the access token - replacing the text {{ENTER_YOUR_DROPBOX_ACCESS_TOKEN_HERE}}
 
 5. Now finally enter your own values for these two configuration keys in pyconfig.txt
 
