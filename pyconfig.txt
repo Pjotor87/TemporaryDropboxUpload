@@ -1,0 +1,11 @@
+[Logging]
+Active: true
+Mode: error
+
+[Dropbox]
+dropbox_api_upload_endpont: https://content.dropboxapi.com/2/files/upload
+dropbox_api_delete_endpont: https://api.dropboxapi.com/2/files/delete_v2
+access_token: {{ENTER_YOUR_DROPBOX_ACCESS_TOKEN_HERE}}
+source_filepath: C:\MyDirectory\MyFileToUpload.txt
+target_filepath: /MyDropboxFolderAtTheRootLevel/MyTargetFileName.txt
+import_time_in_seconds: 300
